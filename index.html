@@ -516,6 +516,7 @@
     .link-out:hover { border-color: var(--teal); color: var(--teal); transform: translateY(-2px); }
 
     /* ── RESEARCH ── */
+    .research-stack { display: flex; flex-direction: column; gap: 24px; }
     .research-card {
       background: var(--hero-dark);
       border-radius: 24px; padding: 52px;
@@ -1000,19 +1001,43 @@
       <div class="sec-label">Academic</div>
       <h2 class="sec-title">Research</h2>
     </div>
-    <div class="research-card rv">
-      <div class="research-inner">
-        <div>
-          <div class="research-label"><i class="fas fa-graduation-cap"></i> BPH Thesis</div>
-          <h3>Knowledge on Digital Health and Its Associated Factors Among Undergraduate Public Health Students of Nepal</h3>
-          <p class="rp">Cross-sectional study assessing digital health knowledge among public health students nationwide. Analyzed with Python — findings advocate integrating digital health into Nepal's BPH curriculum.</p>
-          <a href="#contact" class="btn btn-warm" style="margin-top:12px"><i class="fas fa-envelope"></i> Request paper</a>
+    <div class="research-stack">
+      <div class="research-card rv">
+        <div class="research-inner">
+          <div>
+            <div class="research-label"><i class="fas fa-graduation-cap"></i> BPH Thesis</div>
+            <h3>Knowledge on Digital Health and Its Associated Factors Among Undergraduate Public Health Students of Nepal</h3>
+            <p class="rp">Cross-sectional study assessing digital health knowledge among public health students nationwide. Analyzed with Python — findings advocate integrating digital health into Nepal's BPH curriculum.</p>
+            <a href="#contact" class="btn btn-warm" style="margin-top:12px"><i class="fas fa-envelope"></i> Request paper</a>
+          </div>
+          <div class="research-meta">
+            <div class="rm"><i class="fas fa-university"></i><div><div class="rm-lbl">Institution</div><div class="rm-val">Purbanchal University, Gothgaun, Morang</div></div></div>
+            <div class="rm"><i class="fas fa-layer-group"></i><div><div class="rm-lbl">Type</div><div class="rm-val">Cross-sectional Study</div></div></div>
+            <div class="rm"><i class="fas fa-code"></i><div><div class="rm-lbl">Tools</div><div class="rm-val">Python · Descriptive & Inferential Statistics</div></div></div>
+            <div class="rm"><i class="fas fa-microphone-alt"></i><div><div class="rm-lbl">Presented</div><div class="rm-val">PUiCON 2026 — Purbanchal University, Feb 2026</div></div></div>
+          </div>
         </div>
-        <div class="research-meta">
-          <div class="rm"><i class="fas fa-university"></i><div><div class="rm-lbl">Institution</div><div class="rm-val">Purbanchal University, Gothgaun, Morang</div></div></div>
-          <div class="rm"><i class="fas fa-layer-group"></i><div><div class="rm-lbl">Type</div><div class="rm-val">Cross-sectional Study</div></div></div>
-          <div class="rm"><i class="fas fa-code"></i><div><div class="rm-lbl">Tools</div><div class="rm-val">Python · Descriptive & Inferential Statistics</div></div></div>
-          <div class="rm"><i class="fas fa-microphone-alt"></i><div><div class="rm-lbl">Presented</div><div class="rm-val">PUiCON 2026 — Purbanchal University, Feb 2026</div></div></div>
+      </div>
+
+      <div class="research-card rv rv-d1">
+        <div class="research-inner">
+          <div>
+            <div class="research-label"><i class="fas fa-chalkboard-teacher"></i> Poster Presentation</div>
+            <h3>Prevalence of Multiple Risk Factors of Non-Communicable Disease Among Adults of Sundarharaicha Municipality</h3>
+            <p class="rp">Cross-sectional study of 400 adults (40+) in Sundarharaicha, Morang, revealing alarmingly high co-occurrence of hypertension (72.75%), overweight/obesity (64%), and hyperglycemia (40.25%) — with over 62% of participants carrying two or more risk factors simultaneously.</p>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;">
+              <span style="font-size:0.72rem;font-weight:700;padding:5px 12px;border-radius:7px;background:rgba(93,232,208,0.1);color:#5de8d0;border:1px solid rgba(93,232,208,0.2);">Hypertension 72.75%</span>
+              <span style="font-size:0.72rem;font-weight:700;padding:5px 12px;border-radius:7px;background:rgba(232,115,74,0.12);color:#f0956f;border:1px solid rgba(232,115,74,0.2);">Overweight 64%</span>
+              <span style="font-size:0.72rem;font-weight:700;padding:5px 12px;border-radius:7px;background:rgba(212,147,13,0.12);color:#e8b04a;border:1px solid rgba(212,147,13,0.2);">Hyperglycemia 40.25%</span>
+              <span style="font-size:0.72rem;font-weight:700;padding:5px 12px;border-radius:7px;background:rgba(255,255,255,0.07);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.1);">Multiple RF (2+) &gt;62%</span>
+            </div>
+          </div>
+          <div class="research-meta">
+            <div class="rm"><i class="fas fa-users"></i><div><div class="rm-lbl">Authors</div><div class="rm-val">Dipesh Shrestha · Dr. Binita Kumari Paudel · Mohan Dev Singh</div></div></div>
+            <div class="rm"><i class="fas fa-layer-group"></i><div><div class="rm-lbl">Type</div><div class="rm-val">Descriptive Cross-sectional · Secondary Data</div></div></div>
+            <div class="rm"><i class="fas fa-code"></i><div><div class="rm-lbl">Tools</div><div class="rm-val">Python · Pandas · NumPy · Matplotlib · SciPy</div></div></div>
+            <div class="rm"><i class="fas fa-microphone-alt"></i><div><div class="rm-lbl">Presented</div><div class="rm-val">CAIPHEN Public Health Student Conference 2025</div></div></div>
+          </div>
         </div>
       </div>
     </div>
